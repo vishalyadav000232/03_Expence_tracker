@@ -8,10 +8,10 @@ This project allows users to add, view, and manage their daily expenses — perf
 ## 📸 Screenshots
 
 **Main View**
-![Main View](Project/03_Expence_tracker/src/assets/img/expence_tracker_desktop.jpg)
+![Main View](https://github.com/vishalyadav000232/03_Expence_tracker/raw/main/src/assets/img/expence_tracker_desktop.jpg)
+![Main View](https://github.com/vishalyadav000232/03_Expence_tracker/raw/main/src/assets/img/expence_tracker_image_represenation.jpg)
+)
 
-**Add Expense**
-![Add Expense](Project/03_Expence_tracker/src/assets/img/expence_tracker_image_represenation.jpg)
 
 
 ## 🚀 About the Project
