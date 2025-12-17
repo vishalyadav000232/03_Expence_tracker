@@ -1,16 +1,79 @@
-# React + Vite
+# 💰 Expense Tracker App (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **simple and interactive Expense Tracker web application** built using **React and Vite**.  
+This project allows users to add, view, and manage their daily expenses — perfect as a mini front‑end project for your portfolio!
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Screenshots
 
-## React Compiler
+**Main View**
+![Main View](Project/03_Expence_tracker/src/assets/img/expence_tracker_desktop.jpg)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Add Expense**
+![Add Expense](Project/03_Expence_tracker/src/assets/img/expence_tracker_image_represenation.jpg)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 About the Project
+
+The Expense Tracker helps users:
+
+- 📌 Add new expense entries (name + amount + date)  
+- 📊 View a list of recorded expenses  
+- 🗑 Delete expenses  
+- 💾 **LocalStorage persistence**: Expenses remain after page reload  
+- 📅 **Date tags** on expenses to track when each expense was made  
+- 📉 **Analytics graphs** (Chart.js) to visualize spending trends  
+- 🔄 All logic handled on the frontend (no backend required)  
+
+This project demonstrates **React fundamentals**, **state management**, and **component‑based UI**.
+
+---
+
+## 🧰 Tech & Tools
+
+| Category | Tech Used |
+|----------|-----------|
+| Frontend | React |
+| Build Tool | Vite |
+| JavaScript | ES6+ |
+| Styling | CSS |
+| Package Manager | npm |
+| Development | VS Code, Git, GitHub |
+
+---
+
+## 📁 Project Structure
+
+```
+03_Expence_tracker/
+├── public/
+│ └── index.html
+├── src/
+│ ├── components/ # React UI components
+│ ├── App.jsx # Main app layout
+│ ├── index.css # Global styles
+│ └── main.jsx # Entry point
+├── .gitignore
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+
+
+---
+
+## 🛠️ How to Run Locally
+
+1. **Clone the project**
+```bash
+git clone https://github.com/vishalyadav000232/03_Expence_tracker.git
+
+
+cd 03_Expence_tracker
+npm install
+
+npm run dev
+```
+
